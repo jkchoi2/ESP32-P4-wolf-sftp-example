@@ -1,0 +1,54 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "C:\\esp\\v5.5\\esp-idf",
+  "idf.pythonInstallPath": "c:\\ESP\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32p4-builtin.cfg"
+  ],
+  "idf.portWin": "COM11",
+  "idf.toolsPathWin": "c:\\ESP\\.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32p4"
+  },
+  "clangd.path": "c:\\ESP\\.espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=c:\\ESP\\.espressif\\tools\\riscv32-esp-elf\\esp-14.2.0_20241119\\riscv32-esp-elf\\bin\\riscv32-esp-elf-gcc.exe",
+    "--compile-commands-dir=d:\\ESP32Prj\\test-ssh\\test-wolfsftp\\build"
+  ],
+  "idf.flashType": "UART",
+  "files.associations": {
+    "uto_eth_init.h": "c",
+    "esp_eth_mac_spi.h": "c",
+    "esp_idf_version.h": "c",
+    "task.h": "c",
+    "settings.h": "c",
+    "functional": "c",
+    "chrono": "c"
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [
+        "/k",
+        "c:/esp/v5.5/esp-idf/export.bat"
+      ],
+      "icon": "terminal-cmd"
+    },
+    "GitBash": {
+      "path": [
+        "c:\\Program files\\Git\\bin\\bash.exe"
+      ],
+      "icon": "terminal-bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "cmake.cmakePath": "c:/ESP/.espressif\tools/cmake/3.30.2/bin/cmake.exe"
+}

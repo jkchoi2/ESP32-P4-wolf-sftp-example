@@ -1,0 +1,11 @@
+dependencies:
+  idf:
+    version: '>=5.5.0'
+  wolfssl/wolfssl:
+    version: "^5.8.2"
+    # registry_url: https://components.espressif.com
+  wolfssl/wolfssh: 
+    version: "^1.4.20"
+    # registry_url: https://components.espressif.com
+  espressif/ethernet_init:
+    version: '*'
